@@ -1,0 +1,6 @@
+---
+# tasks file for task2
+
+- import_tasks: epel-release.yml
+- import_tasks: nginxinstall.yml
+- import_tasks: startnginx.yml
